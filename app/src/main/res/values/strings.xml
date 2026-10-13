@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">一字学汉字</string>
+    <string name="app_name">Learn Chinese from Scratch</string>
     <string name="category_animals">动物</string>
     <string name="category_numbers">数字</string>
     <string name="category_nature">自然</string>

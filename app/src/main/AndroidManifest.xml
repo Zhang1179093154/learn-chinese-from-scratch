@@ -9,9 +9,9 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="一字学汉字"
+        android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.YiZhiLearn">
+        android:theme="@style/Theme.LearnChineseFromScratch">
 
         <activity
             android:name=".MainActivity"
