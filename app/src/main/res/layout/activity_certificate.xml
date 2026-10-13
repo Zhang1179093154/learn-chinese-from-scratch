@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#FFF8E1"
+            android:padding="32dp"
+            android:layout_margin="16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="#FFD700" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFD700"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/tvCertTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🏆"
+                android:textSize="64sp"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="奖  状"
+                android:textSize="42sp"
+                android:textColor="#D32F2F"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:id="@+id/tvCertName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小朋友"
+                android:textSize="22sp"
+                android:textColor="#5D4037"
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="在学习汉字中表现优异"
+                android:textSize="20sp"
+                android:textColor="#5D4037"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tvCertCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已认识 100 个汉字"
+                android:textSize="28sp"
+                android:textColor="#E65100"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="特发此状，以资鼓励"
+                android:textSize="20sp"
+                android:textColor="#5D4037"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/tvCertDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2026年1月1日"
+                android:textSize="16sp"
+                android:textColor="#795548"
+                android:layout_marginTop="32dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一字学汉字"
+                android:textSize="14sp"
+                android:textColor="#8D6E63"
+                android:layout_marginTop="8dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFD700"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="#FFD700" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvCertEncourage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继续加油！下一个目标是200字！🌟"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnCertBack"
+            android:layout_width="200dp"
+            android:layout_height="52dp"
+            android:text="继续学习"
+            android:textSize="18sp"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/white"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

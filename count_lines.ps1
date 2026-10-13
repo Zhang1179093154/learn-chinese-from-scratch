@@ -1,0 +1,1 @@
+(Get-Content 'app\src\main\java\com\yizhi\learn\data\CharacterData.java').Count

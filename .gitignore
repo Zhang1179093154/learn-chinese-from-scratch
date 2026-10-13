@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+
+# Local configuration (contains machine-specific paths)
+local.properties
+
+# Android SDK / build tooling downloaded locally
+android-sdk/
+cmdline-tools/
+m2repo/
+repo.xml
+
+# Large archives (GitHub rejects files > 100 MB)
+*.zip

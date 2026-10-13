@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">一字学汉字</string>
+    <string name="category_animals">动物</string>
+    <string name="category_numbers">数字</string>
+    <string name="category_nature">自然</string>
+    <string name="category_daily">日常</string>
+    <string name="category_body">身体</string>
+    <string name="category_colors">颜色</string>
+    <string name="category_food">食物</string>
+    <string name="category_family">家庭</string>
+    <string name="category_actions">动作</string>
+    <string name="category_directions">方向位置</string>
+    <string name="category_time">时间</string>
+    <string name="category_school">学校</string>
+    <string name="learn">认字学习</string>
+    <string name="quiz">趣味测验</string>
+    <string name="write">书写练习</string>
+    <string name="prev">上一个</string>
+    <string name="next">下一个</string>
+    <string name="speak">🔊 朗读</string>
+    <string name="correct">正确!</string>
+    <string name="wrong">再试一次</string>
+    <string name="clear">清除</string>
+    <string name="back">返回</string>
+    <string name="score">得分</string>
+    <string name="hint_correct">太棒了! 回答正确!</string>
+    <string name="hint_wrong">不对哦，再想想吧!</string>
+</resources>
